@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(136, 184, 187, 0.534);
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 20px;
+    font-style: italic;
+}
+section{
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.589);
+}
+
+input#btn{
+    width: 200px;
+    height: 30px;
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.486);
+}
