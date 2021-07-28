@@ -6,11 +6,12 @@ function generate() {
         return
     }
     var num = Number(n.value)
-    var res = document.querySelector("div#res")
-    res.innerHTML = ''
+    var sel = document.querySelector("select#sel")
+
+    sel.innerHTML = ''
     for (let i = 0; i<=10; i++) {
-        res.innerHTML += `${num} x ${i} = ${num*i} <br>`
+        let item = document.createElement('option')
+        item.text = `${num} x ${i} = ${num*i}`
+        sel.appendChild(item)
     }
-
-
 }

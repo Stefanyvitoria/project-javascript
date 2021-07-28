@@ -24,3 +24,8 @@ input#btn{
     height: 30px;
     box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.486);
 }
+select#sel{
+    padding: 5px;
+    font-size: medium;
+    text-align: center;
+}
