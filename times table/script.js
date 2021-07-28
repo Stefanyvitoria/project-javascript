@@ -9,7 +9,6 @@ function generate() {
     var res = document.querySelector("div#res")
     res.innerHTML = ''
     for (let i = 0; i<=10; i++) {
-        // window.alert('')
         res.innerHTML += `${num} x ${i} = ${num*i} <br>`
     }
 

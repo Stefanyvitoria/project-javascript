@@ -16,16 +16,25 @@ function count() {
 
     if( step.value.length == 0) {
         step.value = 1
-    } else if (step.value == 0) {
-        window.alert('Step invalid!')
+    } else if (step.value <= 0 ) {
+        window.alert('Step invalid!\nEnter a value less than 0.')
         return
     }
 
     var res = document.querySelector('div#res')
     res.innerHTML = `Counting from ${start.value} to ${end.value} with step ${step.value}:<br><br>`
 
-    for (var n = Number(start.value); n<=Number(end.value);n+=Number(step.value)) {
-        res.innerHTML += `${n} `
-        console.log(n)
+
+    if (Number(start.value) <= Number(end.value)){
+        for (var n = Number(start.value); n<=Number(end.value);n+=Number(step.value)) {
+            res.innerHTML += `${n} \u{1F449} `
+            console.log(n)
+        }
+    }else {
+        for (var n = Number(start.value); n>=Number(end.value);n-=Number(step.value)) {
+            res.innerHTML += `${n} \u{1F449} `
+            console.log(n)
+        }
     }
+    res.innerHTML += '\u{1F6A9}'
 }
