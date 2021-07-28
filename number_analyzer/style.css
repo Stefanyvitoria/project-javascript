@@ -1,0 +1,57 @@
+body{
+    font: normal 15pt arial;
+    background-color: rgb(180, 226, 240);
+    
+}
+
+header{
+    font-weight: bolder;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+section{
+    width: 500;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.521);
+    margin: auto;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+select{
+    padding: 5px;
+    width: 200;
+}
+div#divsel{
+    text-align: center;
+    padding-top: 20px;
+}
+div#divend{
+    padding-top: 15px;
+}
+div#res{
+    padding-top: 20px;
+    text-align: center;
+}
+input#btnend{
+    width: 100px;
+}
+
+a{
+    color: white;
+}
+input#num{
+    width: 50px;
+}
+input#btnadd{
+    width: 50px;
+}

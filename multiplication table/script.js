@@ -12,6 +12,7 @@ function generate() {
     for (let i = 0; i<=10; i++) {
         let item = document.createElement('option')
         item.text = `${num} x ${i} = ${num*i}`
+        item.setAttribute('value',`${i}`)
         sel.appendChild(item)
     }
 }
