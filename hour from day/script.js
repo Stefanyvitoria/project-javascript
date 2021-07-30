@@ -1,11 +1,11 @@
-function carregar() {
+function load() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('image')
 
     var data = new Date()
     var hora = data.getHours()
 
-    msg.innerHTML = `Agora são ${hora.toString()} horas.`
+    msg.innerHTML = `now it's ${hora.toString()} o'clock.`
     
     if (hora < 12) {
         //dia

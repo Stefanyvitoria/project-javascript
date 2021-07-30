@@ -29,3 +29,7 @@ select#sel{
     font-size: medium;
     text-align: center;
 }
+
+a#git{
+    color: black;
+}

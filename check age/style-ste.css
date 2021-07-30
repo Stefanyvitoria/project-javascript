@@ -27,3 +27,7 @@ footer {
 img#img{
     text-align: center;
 }
+
+a#git{
+    color: rgb(42, 42, 128);
+}
