@@ -42,10 +42,10 @@ function finish() {
 
 }
 
-function sum( nums) {
+function sum( numbers) {
     let s = 0 
-    for (let n = 0; n<nums.length; n++){
-        s += Number(nums[n])
+    for (let n = 0; n<numbers.length; n++){
+        s += Number(numbers[n])
     }
     return s
 }
